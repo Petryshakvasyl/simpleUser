@@ -20,7 +20,6 @@ public class User {
     private String lastName;
 
     @NotNull
-    @Size(min=1, max = 100)
     private Integer age;
 
     @NotNull
